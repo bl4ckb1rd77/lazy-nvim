@@ -10,7 +10,8 @@ return {
     -- add it to the winbar instead
     opts.winbar = { lualine_b = { "filename" }, lualine_c = { navic } }
     -- table.insert(opts.theme, "catppuccin")
-    opts.options.theme = "catppuccin"
+    --    opts.options.theme = "catppuccin"
+    opts.options.theme = "tokyonight"
     opts.options.icons_enabled = true
     opts.options.component_separators = ""
     opts.options.section_separators = ""
